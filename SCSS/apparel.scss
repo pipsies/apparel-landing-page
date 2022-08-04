@@ -1,3 +1,35 @@
+@use './util/' as u;
+
 body {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: u.em(20);
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    
 }
+
+.apparel-page {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.image-div {
+    height: 100vh;
+    width: u.em(510);
+    background-color: burlywood;
+    background-image: url('/Images/hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    
+}
+
+.info-div {
+    height: 100vh;
+    background-color: rgb(221, 193, 220);
+    width: u.em(890);
+    color: var( --red-desat);
+   
+}
+
