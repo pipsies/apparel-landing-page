@@ -72,9 +72,26 @@ body {
 .info-div .email-prop {
   border-radius: 2.1875em;
   border-color: var(--red-desat);
-  width: 28.75em;
-  height: 4.0625em;
+  width: 31.25em;
+  height: 3.125em;
   margin-top: 1.25em;
+  font-size: 0.875em;
+  outline: none;
+  border-style: solid;
+}
+.info-div ::placeholder {
+  color: var(--red-desat);
+  opacity: 1;
+  margin-left: 1.875em;
+}
+.info-div input[type=email i] {
+  padding-left: 1.5625em;
+}
+@media screen and (min-width: 480px) {
+  .info-div .image-div {
+    background-image: url("/Images/hero-mobile.jpg");
+    background-repeat: no-repeat;
+  }
 }
 
 /*# sourceMappingURL=apparel.css.map */
