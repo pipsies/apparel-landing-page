@@ -69,7 +69,20 @@ body {
   font-weight: 400;
   color: var(--red-desat);
 }
-.info-div .email-prop {
+.info-div .email-input #result {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.9375em;
+  font-weight: 500;
+  color: var(--red-desat);
+  padding-left: 1.375em;
+  margin-top: 1.5625em;
+}
+.info-div .email-input #enterbtn {
+  border-radius: 2.1875em;
+  width: 5em;
+  height: 5em;
+}
+.info-div .email-input #email {
   border-radius: 2.1875em;
   border-color: var(--red-desat);
   width: 31.25em;
@@ -79,12 +92,12 @@ body {
   outline: none;
   border-style: solid;
 }
-.info-div ::placeholder {
+.info-div .email-input ::placeholder {
   color: var(--red-desat);
   opacity: 1;
   margin-left: 1.875em;
 }
-.info-div input[type=email i] {
+.info-div .email-input input[type=email i] {
   padding-left: 1.5625em;
 }
 @media screen and (min-width: 480px) {
