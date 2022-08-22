@@ -21,7 +21,7 @@ body {
 
 .image-div {
   height: 100vh;
-  width: 31.875em;
+  width: 34.0625em;
   background-color: rgb(255, 255, 255);
   background-image: url("/Images/hero-desktop.jpg");
   background-repeat: no-repeat;
@@ -63,11 +63,17 @@ body {
 }
 .info-div .txt-info {
   width: 26.25em;
-  margin-top: 1.875em;
+  margin-top: 2.5em;
   margin-right: 0;
+  margin-bottom: 3.125em;
   line-height: 1.5625em;
   font-weight: 400;
   color: var(--red-desat);
+}
+.info-div .email-input {
+  height: 4.375em;
+  display: flex;
+  direction: row;
 }
 .info-div .email-input #result {
   font-family: "Josefin Sans", sans-serif;
@@ -81,13 +87,18 @@ body {
   border-radius: 2.1875em;
   width: 5em;
   height: 5em;
+  background-color: var(--red-desat);
+  border-style: none;
+  background-image: url("/Images/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: -3.125em;
 }
 .info-div .email-input #email {
   border-radius: 2.1875em;
   border-color: var(--red-desat);
   width: 31.25em;
   height: 3.125em;
-  margin-top: 1.25em;
   font-size: 0.875em;
   outline: none;
   border-style: solid;

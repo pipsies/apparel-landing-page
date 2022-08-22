@@ -16,7 +16,7 @@ body {
 
 .image-div {
     height: 100vh;
-    width: u.em(510);
+    width: u.em(545);
     background-color: rgb(255, 255, 255);
     background-image: url('/Images/hero-desktop.jpg');
     background-repeat: no-repeat;
@@ -70,14 +70,19 @@ body {
 
     .txt-info {
         width: u.em(420);
-        margin-top: u.em(30);
+        margin-top: u.em(40);
         margin-right: 0;
+        margin-bottom: u.em(50);
         line-height: u.em(25);
         font-weight: 400;
         color: var(--red-desat);
     }
 
 .email-input {
+
+    height: u.em(70);
+    display: flex;
+    direction: row;
 
 #result {
     font-family: 'Josefin Sans', sans-serif;
@@ -92,6 +97,12 @@ body {
     border-radius: u.em(35);
     width: u.em(80);
     height: u.em(80);
+    background-color: var(--red-desat);
+    border-style: none;
+    background-image: url('/Images/icon-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: u.em(-50);
     
 }
 
@@ -100,7 +111,6 @@ body {
         border-color: var(--red-desat);
         width: u.em(500);
         height: u.em(50);
-        margin-top: u.em(20);
         font-size: u.em(14);
         outline: none;
         border-style: solid;

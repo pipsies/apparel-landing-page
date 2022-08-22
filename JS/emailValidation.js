@@ -4,11 +4,18 @@ function validate() {
     input.value=document.getElementById('email').value;
       
     if (input.checkValidity()) {
-      document.getElementById('result').innerText = 'Email has been sent';
+    document.getElementById('result').innerText = 'Email has been sent';
     } else {
-      document.getElementById('result').innerText = 'Please enter a valid email';
-      document.getElementById('result').style.color = 'red';
+    document.getElementById('result').innerText = 'Please enter a valid email';
+    document.getElementById('result').style.color = 'red';
     }
+
+    
       
     return false;
   }
+
+
+
+
+
