@@ -1,2 +1,2 @@
 # apparel coming soon landing page
-basic form validation.
+basic form email validation for a new online shop.
