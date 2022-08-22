@@ -39,7 +39,7 @@ body {
     }
 
     .logo {
-        margin-bottom: u.em(80);
+        margin-bottom: u.em(60);
     }
    
     .text {
@@ -102,7 +102,7 @@ body {
     background-image: url('/Images/icon-arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: u.em(-50);
+    margin-left: u.em(-80);
     
 }
 
@@ -127,19 +127,40 @@ body {
 
 }
 
+      
+          
+// media for responsive screen
+} 
 
+@media only screen
+and (max-width : 417px) {
 
+    body {
+        overflow: scroll;
+    }
+    .image-div {
+        position:absolute;
+        top: 0px;
+        background-image: url('/Images/hero-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        width: u.em(560);
+    }
 
-    @media screen and (min-width: 480px) {
-        .image-div {
-          background-image: url('/Images/hero-mobile.jpg');
-          background-repeat: no-repeat;
+    .info-div {
+        bottom: 0%;
+        position: absolute;
+        height: u.em(100);
+        width: u.em(560);
+        .info-content {
+            margin-left: u.em(30)
+            
         }
-      }
-      
-      
     
-      
+    }
+
+   
 
 
 }
