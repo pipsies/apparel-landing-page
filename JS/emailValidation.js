@@ -5,6 +5,7 @@ function validate() {
       
     if (input.checkValidity()) {
     document.getElementById('result').innerText = 'Email has been sent';
+    document.getElementById('result').style.color = 'green';
     } else {
     document.getElementById('result').innerText = 'Please enter a valid email';
     document.getElementById('result').style.color = 'red';

@@ -135,5 +135,14 @@ body {
     margin-left: 1.875em;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .image-div {
+    width: 43.75em;
+    background-image: url("/Images/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+}
 
 /*# sourceMappingURL=apparel.css.map */
