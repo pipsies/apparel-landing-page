@@ -165,3 +165,20 @@ and (max-width : 417px) {
 
 }
 
+@media only screen
+and (min-width : 1440px) {
+
+.image-div{
+
+    
+    width: u.em(700);
+    background-image: url('/Images/hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    
+}
+
+
+}
+
